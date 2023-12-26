@@ -1,0 +1,86 @@
+1.GOOD is coded as 164, BAD is coded as 21. If UGLY coded as 260 then JUMP ?
+A-240
+B-320
+C-440
+D-210
+
+ans:-240
+explanation:
+ENCRYPTION:- It is the manner of changing data or information right into a code ,specifically to prevent unauthorized access.
+now GOOD is coded as 164.
+    BAD is coded as 21.
+    UGLY is coded as 260.
+now dividing the codes through the length of corresponding word.
+code(GOOD)=164/4=41
+code(BAD)=21/3=7
+code(UGLY)=260/4=65
+now it is seen that code(GOOD)=n(G)+n(O)+n(O)+n(D)=7+15+15+4=41
+so JUMP is coded as=4*[n(J)+n(U)+n(M)+n(P)]=4*[10+21+13+16]=4*60=240
+
+
+
+2. 5 boys and 5girls sit around a circular table. What is the probability that 5 boys are sitting together?
+A - 5/125
+B -5/126
+C -126/5
+D -125/5
+
+ans:-5/126
+explanation:
+First,considee the case of 5 boys sitting together.let the 5 boys be one group and 5 girls.
+so total we have 1+5=6 people sitting.also the 5 boys themselves can be seated in 5! ways.
+since it is a circular table,6 people can sit in(6-1)=5!*5! ways.
+now no. of ways 5 boys and 5 girls can sit=(10-1)=9!
+so probability=(5!*5!)/9!=5/126
+
+
+
+3.A, B, C and so on given in each question, when properly sequenced, form a coherent paragraph. Choose the most logical order of sentences from among the four given choices 
+1. Buddhism is a way to salvation.
+A. But Buddhism is more severely analytical.
+B. In the Christian tradition there is also a concern for the fate of human society
+conceived as a whole, rather than merely as a sum or network of individuals.
+C. Salvation is a property, or achievement of individuals.
+D. Not only does it dissolve society into individuals, the individual in turn is dissolved
+into component parts and instants, a steam of events.
+6. In modern terminology, Buddhist doctrine is reductionist.
+[a] ABCD [b] CBAD [c] BDAC [d] ABCD
+
+ans:-BDAC
+
+
+
+4.find the output of this code ?
+#include<stdio.h>
+int main()
+{
+printf("%%%%\n");
+return 0;
+}
+A. %%%%%
+B. %%
+C. No output
+D. Error
+
+ans:-%%
+
+
+
+5.write algorithm of Bubble sort .
+ans:-
+for(int i=0;i<n-1;i++){
+        bool flag=0;
+        for(int j=0;j<n-1-i;j++){
+            if (arr[j]>arr[j+1]){
+                temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
+                flag=1;
+            }
+        }  
+        if(flag==0){
+            break;
+        }    
+    }
+
+
